@@ -1,9 +1,14 @@
 import './App.css';
+import Header from './components/Header';
+import Toggle from './components/Toggle';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello There</h1>
+      <div className="header-wrapper">
+        <Header/>
+        <Toggle/>
+      </div>
     </div>
   );
 }
