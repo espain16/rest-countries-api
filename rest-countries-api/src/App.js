@@ -1,5 +1,5 @@
 import './App.css';
-import CountriesData from './components/Countries';
+import CountriesData from './components/CountriesData';
 import FilterCountry from './components/Filter';
 import Header from './components/Header';
 import Search from './components/Search';
